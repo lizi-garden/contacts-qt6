@@ -1,0 +1,175 @@
+<!DOCTYPE QPH>
+<QPH sourcelanguage="en_US" language="zh_CN">
+<phrase>
+    <source>New</source>
+    <target>新建</target>
+</phrase>
+<phrase>
+    <source>Edit</source>
+    <target>编辑</target>
+</phrase>
+<phrase>
+    <source>Delete</source>
+    <target>删除</target>
+</phrase>
+<phrase>
+    <source>Load</source>
+    <target>打开</target>
+</phrase>
+<phrase>
+    <source>Search</source>
+    <target>搜索</target>
+</phrase>
+<phrase>
+    <source>Save</source>
+    <target>保存</target>
+</phrase>
+<phrase>
+    <source>Name</source>
+    <target>姓名</target>
+</phrase>
+<phrase>
+    <source>Name:</source>
+    <target>姓名：</target>
+</phrase>
+<phrase>
+    <source>Group:</source>
+    <target>分类：</target>
+</phrase>
+<phrase>
+    <source>Comment:</source>
+    <target>注释：</target>
+</phrase>
+<phrase>
+    <source>&amp;Add</source>
+    <target>&amp;添加</target>
+</phrase>
+<phrase>
+    <source>&amp;Edit</source>
+    <target>&amp;编辑</target>
+</phrase>
+<phrase>
+    <source>&amp;Delete</source>
+    <target>&amp;删除</target>
+</phrase>
+<phrase>
+    <source>&amp;Search</source>
+    <target>&amp;搜索</target>
+</phrase>
+<phrase>
+    <source>&amp;Load</source>
+    <target>&amp;打开</target>
+</phrase>
+<phrase>
+    <source>&amp;Save</source>
+    <target>&amp;保存</target>
+</phrase>
+<phrase>
+    <source>Load contacts from a file</source>
+    <target>导入完成</target>
+</phrase>
+<phrase>
+    <source>Save contacts to a file</source>
+    <target>保存到文件</target>
+</phrase>
+<phrase>
+    <source>&amp;Finish</source>
+    <target>&amp;完成</target>
+</phrase>
+<phrase>
+    <source>&amp;Cancel</source>
+    <target>&amp;取消</target>
+</phrase>
+<phrase>
+    <source>&amp;Previous</source>
+    <target>&amp;上一个</target>
+</phrase>
+<phrase>
+    <source>&amp;Next</source>
+    <target>&amp;下一个</target>
+</phrase>
+<phrase>
+    <source>Simple Contacts Book</source>
+    <target>通讯录</target>
+</phrase>
+<phrase>
+    <source>Confirm Remove</source>
+    <target>是否删除？</target>
+</phrase>
+<phrase>
+    <source>Are you sure you want to remove &quot;%1&quot;?</source>
+    <target>你确认是否移除“%1”？</target>
+</phrase>
+<phrase>
+    <source>Remove Successful</source>
+    <target>删除成功</target>
+</phrase>
+<phrase>
+    <source>Remove Successful</source>
+    <target>删除成功</target>
+</phrase>
+<phrase>
+    <source>&quot;%1&quot; has been removed from your address book.</source>
+    <target>“%1”已经从通讯录中移除。</target>
+</phrase>
+<phrase>
+    <source>Contact Not Found</source>
+    <target>未找到相关内容</target>
+</phrase>
+<phrase>
+    <source>Sorry, &quot;%1&quot; is not in your address book.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Open Address Book</source>
+    <target>打开通讯录</target>
+</phrase>
+<phrase>
+    <source>Address Book (*.csv);;All Files (*)</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Unable to open file</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>No contacts in file</source>
+    <target>该文件为空</target>
+</phrase>
+<phrase>
+    <source>The file you are attempting to open contains no contacts.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Save Address Book</source>
+    <target>保存通讯录</target>
+</phrase>
+<phrase>
+    <source>Empty Field</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>&quot;%1&quot; has been added to your address book.</source>
+    <target>“%1”已经添加到通讯录。</target>
+</phrase>
+<phrase>
+    <source>Add Unsuccessful.</source>
+    <target>添加成功</target>
+</phrase>
+<phrase>
+    <source>Sorry, &quot;%1&quot; is already in your address book.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Edit Successful</source>
+    <target>编辑成功 </target>
+</phrase>
+<phrase>
+    <source>&quot;%1&quot; has been edited in your address book.</source>
+    <target>“%1”已经通讯录内容已修改。</target>
+</phrase>
+<phrase>
+    <source>Edit Unsuccessful</source>
+    <target>编辑失败</target>
+</phrase>
+</QPH>
