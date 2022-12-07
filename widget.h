@@ -47,6 +47,7 @@ private:
 
     // 通讯录数据
     QMap<QString, Contact> contacts;
+    QStringList data;
     QString oldName;
     Contact oldData;
 

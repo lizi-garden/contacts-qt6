@@ -114,24 +114,15 @@ Widget::Widget(QWidget *parent)
     setLayout(mainLayout);
     setWindowTitle(tr("Simple Contacts Book"));
 
-    // 快捷键
-    QShortcut *add = new QShortcut(QKeySequence(QKeySequence::New), this);
-    QShortcut *remove = new QShortcut(QKeySequence(QKeySequence::Delete), this);
-    QShortcut *search = new QShortcut(QKeySequence(QKeySequence::Find), this);
-    QShortcut *cancel = new QShortcut(QKeySequence(QKeySequence::Cancel), this);
-    QShortcut *open = new QShortcut(QKeySequence(QKeySequence::Open), this);
-    QShortcut *save = new QShortcut(QKeySequence(QKeySequence::Save), this);
-    QShortcut *previous = new QShortcut(QKeySequence(QKeySequence::MoveToPreviousPage), this);
-    QShortcut *next = new QShortcut(QKeySequence(QKeySequence::MoveToNextPage), this);
-
-    connect(add, &QShortcut::activated, this, &Widget::addContent);
-    connect(remove, &QShortcut::activated, this, &Widget::deleteContent);
-    connect(search, &QShortcut::activated, this, &Widget::searchContent);
-    connect(cancel, &QShortcut::activated, this, &Widget::cancelContent);
-    connect(open, &QShortcut::activated, this, &Widget::loadFromFile);
-    connect(save, &QShortcut::activated, this, &Widget::saveToFile);
-    connect(previous, &QShortcut::activated, this, &Widget::previous);
-    connect(next, &QShortcut::activated, this, &Widget::next);
+    // 按钮快捷键
+    addButton->setShortcut(QKeySequence::New);
+    deleteButton->setShortcut(QKeySequence::Delete);
+    searchButton->setShortcut(QKeySequence::Find);
+    loadButton->setShortcut(QKeySequence::Open);
+    saveButton->setShortcut(QKeySequence::Save);
+    cancelButton->setShortcut(QKeySequence::Cancel);
+    previousButton->setShortcut(QKeySequence::MoveToPreviousPage);
+    nextButton->setShortcut(QKeySequence::MoveToNextPage);
 
     updateInterface(NavigationMode);
 }
